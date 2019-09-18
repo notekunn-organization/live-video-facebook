@@ -1,0 +1,32 @@
+{
+  "name": "live-video-facebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "live-video-facebook": "install.js"
+  },
+  "scripts": {
+    "test": "mocha",
+    "postinstall": "node ./bin/install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/my-shit-project/live-video-facebook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/my-shit-project/live-video-facebook/issues"
+  },
+  "homepage": "https://github.com/my-shit-project/live-video-facebook#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "decompress": "^4.2.0",
+    "decompress-tarxz": "^3.0.0",
+    "decompress-unzip": "^4.0.1",
+    "mocha": "^6.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}

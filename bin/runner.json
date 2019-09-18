@@ -1,0 +1,4 @@
+{
+	"youtubedl": "/workspace/live-video-facebook/bin/youtube-dl",
+	"ffmpeg": "/workspace/live-video-facebook/bin/ffmpeg"
+}
